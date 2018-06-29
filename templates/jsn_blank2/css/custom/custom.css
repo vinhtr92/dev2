@@ -1,0 +1,157 @@
+/* Write your custom css code here */
+@font-face {
+    font-family: 'IcoMoon';
+    
+	src: url('../../../../media/jui/fonts/IcoMoon.eot');
+	src: url('../../../../media/jui/fonts/IcoMoon.eot?#iefix') format('embedded-opentype'), url('../../../../media/jui/fonts/IcoMoon.woff') format('woff'), url('../../../../media/jui/fonts/IcoMoon.ttf') format('truetype'), url('../../../../media/jui/fonts/IcoMoon.svg#IcoMoon') format('svg');
+	font-weight: normal;
+    font-style: normal;
+    /* src: url('../../../../media/jui/fonts/IcoMoon.eot') */
+}
+
+.newsflash--custom {
+    color: #fff;
+}
+
+.newsflash--custom .newsflash-item {
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.newsflash--custom  .newsflash-title {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: inherit;
+}
+
+.newsflash--custom p {
+    font-size: 14px;
+    color: inherit;
+}
+
+.newsflash--custom h2 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: inherit;
+}
+
+.newsflash--custom a.readmore.btn {
+    margin-top: 10px;
+    padding: 4px 12px;
+    color: #333;
+    background-color: #E6E6E6;
+
+}
+
+.newsflash--custom a.readmore.btn::before {
+    font-family: 'IcoMoon';
+    content: '\e006';
+    font-size: normal;
+    font-weight: normal;
+    line-height: 1;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.joomla--custom h2 {
+    font-size: 22px;
+}
+
+a.btn-joomla {
+    padding: 12px 20px ;
+    color: #fff !important;
+    font-size: 18px ;
+    border-radius: 999px ;
+    border: none;
+
+}
+
+.btn-joomla.btn-joomla--primary {
+    background-color: #006dcc ;
+}
+
+.btn-joomla.btn-joomla--primary:hover {
+    background-color: #04c ;
+}
+
+
+.btn-joomla.btn-joomla--secondary {
+    background-color: #ee5f5b;
+}
+
+.btn-joomla.btn-joomla--secondary:hover  {
+    background-color: #bd362f;
+}
+
+.an-joomla ul.category-module li {
+    list-style: none;
+    padding: 0;
+}
+
+.an-joomla h2 {
+    font-size: 22px;
+    margin: 0 0 10px 0;
+}
+
+.an-joomla ul {
+    margin: 0; 
+    padding: 0;
+}
+
+.an-joomla h3{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin: 0 0 10px 0;
+    border-bottom: 1px dotted;
+}
+
+.an-joomla .mod-articles-category-introtext {
+    margin-bottom: 0px;
+}
+
+.an-joomla .moduletable {
+    margin-bottom: 10px;
+}
+
+.an-joomla .mod-articles-category-group-content {
+    margin-bottom: 10px;
+}
+
+picture.ja-event img{
+    width: 530px;
+    height: auto;
+}
+
+.counter-container a {
+    color: inherit;
+}
+
+.counter-container .counter-block {
+    height: 265px;
+    position: relative;
+    color: #fff;
+}
+
+.counter-container .numbers-text {
+    display: inline-block;
+    bottom: 0;
+    font-size: 18px;
+    font-weight: normal;
+    left: 20px;
+    line-height: 24px;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.counter-container .numbers-text span {
+    font-size: 60px;
+}
+
+.counter-container .numbers-text sup {
+    position: absolute;
+    font-size: 28px;
+    top: 10px;
+}
