@@ -135,6 +135,42 @@ picture.ja-event img{
     color: #fff;
 }
 
+.counter-block .counter-item {
+    margin: 0 0  10px 15px;
+}
+
+.counter-block .counter-title,.counter-desc {
+    color: inherit;
+}
+
+.counter-block .counter-title {
+    font-size: 60px;
+    top: 20px;
+    position: relative;
+}
+
+.counter-block {
+    display: flex;
+    align-items: flex-end;
+}
+
+.counter-title::after {
+    content: "+";
+    font-size: 28px;
+    margin-left: 5px;
+    top: -20px;
+    position: relative;
+
+}
+
+.counter-item .counter-desc {
+    text-transform: uppercase;
+    font-size: 18px;
+
+
+}
+
+
 .counter-container .numbers-text {
     display: inline-block;
     bottom: 0;
