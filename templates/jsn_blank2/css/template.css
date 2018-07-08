@@ -14,7 +14,7 @@
       touch-action: manipulation;
   cursor: pointer;
   background-image: none;
-  border: 1px solid transparent;
+  border: 1px solid transparent !important;
   white-space: nowrap;
   padding: 13px 30px !important;
   font-size: 12px;
@@ -59,22 +59,123 @@ fieldset[disabled] .btn {
 
 .btn-gradient-primary {
   background-image: radial-gradient(circle at 0 0, #f98b4d, #f76b1c);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-gradient-primary:hover, .btn-gradient-primary:active {
+  background-image: radial-gradient(circle at 0 0, #fa9b66, #f76b1c), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.15)), to(rgba(255, 255, 255, 0.15)));
+  background-image: radial-gradient(circle at 0 0, #fa9b66, #f76b1c), linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+  -webkit-box-shadow: 0 0 0 2px rgba(247, 107, 28, 0.5);
+  box-shadow: 0 0 0 3px rgba(247, 107, 28, 0.5);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-gradient-primary:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(247, 107, 28, 0.5) !important;
+          box-shadow: 0 0 0 3px rgba(247, 107, 28, 0.5) !important;
 }
 
 .btn-gradient-success {
   background-image: radial-gradient(circle at 0 0, #96ce4e, #7db633);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-gradient-success:hover, .btn-gradient-success:active {
+  background-image: radial-gradient(circle at 0 0, #a2d362, #7db633), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.15)), to(rgba(255, 255, 255, 0.15)));
+  background-image: radial-gradient(circle at 0 0, #a2d362, #7db633), linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+  -webkit-box-shadow: 0 0 0 2px rgba(125, 182, 51, 0.5);
+          box-shadow: 0 0 0 2px rgba(125, 182, 51, 0.5);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-gradient-success:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(125, 182, 51, 0.5) !important;
+          box-shadow: 0 0 0 3px rgba(125, 182, 51, 0.5) !important;
 }
 
 .btn-gradient-info {
   background-image: radial-gradient(circle at 0 0, #5880f4, #285bf1);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-gradient-info:hover, .btn-gradient-info:active {
+  background-image: radial-gradient(circle at 0 0, #7092f6, #285bf1), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.15)), to(rgba(255, 255, 255, 0.15)));
+  background-image: radial-gradient(circle at 0 0, #7092f6, #285bf1), linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+  -webkit-box-shadow: 0 0 0 2px rgba(40, 91, 241, 0.5);
+          box-shadow: 0 0 0 2px rgba(40, 91, 241, 0.5);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-gradient-info:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(40, 91, 241, 0.5) !important;
+          box-shadow: 0 0 0 3px rgba(40, 91, 241, 0.5) !important;
 }
 
 .btn-gradient-warning {
   background-image: radial-gradient(circle at 0 0, #ffd54b, #ffc918);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-gradient-warning:hover, .btn-gradient-warning:active {
+  background-image: radial-gradient(circle at 0 0, #ffdb65, #ffc918), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.15)), to(rgba(255, 255, 255, 0.15)));
+  background-image: radial-gradient(circle at 0 0, #ffdb65, #ffc918), linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+  -webkit-box-shadow: 0 0 0 2px rgba(255, 201, 24, 0.5);
+          box-shadow: 0 0 0 2px rgba(255, 201, 24, 0.5);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-gradient-warning:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(255, 201, 24, 0.5) !important;
+          box-shadow: 0 0 0 3px rgba(255, 201, 24, 0.5) !important;
 }
 
 .btn-gradient-danger {
   background-image: radial-gradient(circle at 0 0, #ee4b4b, #e91d1d);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-gradient-danger:hover, .btn-gradient-danger:active {
+  background-image: radial-gradient(circle at 0 0, #f06363, #e91d1d), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.15)), to(rgba(255, 255, 255, 0.15)));
+  background-image: radial-gradient(circle at 0 0, #f06363, #e91d1d), linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+  -webkit-box-shadow: 0 0 0 2px rgba(233, 29, 29, 0.5);
+          box-shadow: 0 0 0 2px rgba(233, 29, 29, 0.5);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-gradient-danger:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(233, 29, 29, 0.5) !important;
+          box-shadow: 0 0 0 3px rgba(233, 29, 29, 0.5) !important;
+}
+
+.btn-lg {
+  padding: 18px 56px !important;
+  font-size: 12px;
+  line-height: 1.33333;
+  border-radius: 4px;
+}
+
+.btn-sm {
+  padding: 5px 10px !important;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.btn-xs {
+  padding: 1px 5px !important;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
 }
 
 label {
