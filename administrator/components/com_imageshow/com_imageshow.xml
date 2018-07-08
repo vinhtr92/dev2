@@ -2,17 +2,17 @@
 <extension version="3.x" type="component" method="upgrade">
 <name>ImageShow</name>
 <version>5.0.9</version>
-<edition>FREE</edition>
+<edition>PRO UNLIMITED</edition>
 <creationDate>09/19/2017</creationDate>
-<copyright>Copyright (c) 2008 - 2013 - JoomlaShine.com</copyright>
+<copyright>Copyright (c) 2008 - 2015 - JoomlaShine.com</copyright>
 <license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
 <author>JoomlaShine.com</author>
 <authorEmail>admin@joomlashine.com</authorEmail>
 <authorUrl>http://www.joomlashine.com</authorUrl>
-<description>JSN IMAGESHOW FREE</description>
+<description>JSN IMAGESHOW PRO UNLIMITED</description>
 <updateservers>
 <server type="collection" name="imageshow">http://www.joomlashine.com/versioning/extensions/com_imageshow.xml</server>
-</updateservers> 
+</updateservers>
 <install>
 <sql>
 <file charset="utf8" driver="mysql">install.mysql.sql</file>
@@ -150,7 +150,7 @@ JSN ImageShow Default Theme
 <filename>index.html</filename>
 <filename>install.mysql.sql</filename>
 <filename>install.sqlsrv.sql</filename>
-<filename>jsn_imageshow_free_5.0.9.checksum</filename>
+<filename>jsn_imageshow_pro_unlimited_5.0.9.checksum</filename>
 <filename>jsninstaller.php</filename>
 <filename>uninstall.mysql.sql</filename>
 <filename>uninstall.sqlsrv.sql</filename>
