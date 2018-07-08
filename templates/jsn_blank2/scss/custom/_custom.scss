@@ -1,0 +1,81 @@
+$rtl-left : left;
+$rtl-right : right;
+$brand-prefix: ".sunfw-";
+
+// ======================================
+// ------------ GENARAL -----------------
+// ======================================
+
+// Page
+
+
+
+// Heading
+
+$header-color: #333 !default;
+//$heading-font-family: $font-family-base !default;
+
+// Content
+
+// Link
+
+// Button
+
+// Setting Base Color
+
+$border-color-base: #ece6e6 !default;
+
+$primary-color: #FF6C00 !default;
+
+$secondary-color: #261C15 !default;
+
+// ======================================
+// ------------ OFFCANVAS ---------------
+// ======================================
+
+$offcanvas-left-width: 300px !default;
+$offcanvas-left-height: 100% !default;
+
+$offcanvas-right-width: 300px !default;
+$offcanvas-right-height: 100% !default;
+
+$offcanvas-top-width: 100% !default;
+$offcanvas-top-height: 300px !default;
+
+$offcanvas-bottom-width: 100% !default;
+$offcanvas-bottom-height: 300px !default;
+
+// ======================================
+// ------------ COLORS ---------------
+// ======================================
+
+$orange: #f76b1c;
+$green: #7db633;
+$red : #e91d1d;
+$blue: #285bf1;
+$yellow: #ffc918;
+
+$brand-primary:         $orange;
+$brand-success:         $green;
+$brand-info:            $blue;
+$brand-danger:          $red;
+$brand-warning:        	$yellow;
+
+$theme-colors: () ;
+$theme-colors: map-merge((
+  "primary":    $brand-primary,
+  "success":    $brand-success,
+  "info":       $brand-info,
+  "warning":    $brand-warning,
+  "danger":     $brand-danger,
+), $theme-colors );
+
+//button
+
+$padding-base-vertical:     13px ;
+$padding-base-horizontal:   30px ;
+$btn-font-weight: bold;
+$btn-default-color:              #fff ;
+$btn-text-transform: uppercase;
+
+

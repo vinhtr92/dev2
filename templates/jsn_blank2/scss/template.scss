@@ -3,10 +3,19 @@
  */
 
 // Core variables and mixins
-@import "bootstrap/variables";
-@import "vars/var";
+
+
+
+
+// @import "vars/var";
 @import "../assets/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 @import "mixins/mixins";
+
+
+@import "bootstrap/variables";
+@import "custom/customvariables";
+@import "custom/custom";
+@import "custom/button";
 
 // Module and Layout
 @import "ui/form";
@@ -37,3 +46,4 @@
 @import "joomla/responsive";
 @import "joomla/print";
 @import "j2store/style";
+
