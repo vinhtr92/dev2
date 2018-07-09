@@ -91,6 +91,7 @@ fieldset[disabled] .btn {
   color: #212529 !important;
   background: none !important;
   /* khong co padding left and right */
+  padding: 0 !important;
 }
 
 .btn.btn-plain-primary:hover, .btn.btn-plain-primary:focus, .btn.btn-plain-primary.focus {
@@ -131,6 +132,7 @@ fieldset[disabled] .btn {
   color: #212529 !important;
   background: none !important;
   /* khong co padding left and right */
+  padding: 0 !important;
 }
 
 .btn.btn-plain-success:hover, .btn.btn-plain-success:focus, .btn.btn-plain-success.focus {
@@ -171,6 +173,7 @@ fieldset[disabled] .btn {
   color: #212529 !important;
   background: none !important;
   /* khong co padding left and right */
+  padding: 0 !important;
 }
 
 .btn.btn-plain-info:hover, .btn.btn-plain-info:focus, .btn.btn-plain-info.focus {
@@ -211,6 +214,7 @@ fieldset[disabled] .btn {
   color: #212529 !important;
   background: none !important;
   /* khong co padding left and right */
+  padding: 0 !important;
 }
 
 .btn.btn-plain-warning:hover, .btn.btn-plain-warning:focus, .btn.btn-plain-warning.focus {
@@ -251,6 +255,7 @@ fieldset[disabled] .btn {
   color: #212529 !important;
   background: none !important;
   /* khong co padding left and right */
+  padding: 0 !important;
 }
 
 .btn.btn-plain-danger:hover, .btn.btn-plain-danger:focus, .btn.btn-plain-danger.focus {
@@ -291,6 +296,7 @@ fieldset[disabled] .btn {
   color: #212529 !important;
   background: none !important;
   /* khong co padding left and right */
+  padding: 0 !important;
 }
 
 .btn.btn-plain-light:hover, .btn.btn-plain-light:focus, .btn.btn-plain-light.focus {
@@ -335,7 +341,6 @@ fieldset[disabled] .btn {
   line-height: 1.5;
   margin-top: 0px;
   margin-bottom: 0px;
-  text-transform: uppercase;
 }
 
 .sectitle p.sectitle__sub,
@@ -366,7 +371,7 @@ fieldset[disabled] .btn {
   width: 55px;
   height: 2px;
   background-image: radial-gradient(circle at 0 0, #fa9348, #f76b1c);
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .maler__desc {
@@ -406,6 +411,24 @@ fieldset[disabled] .btn {
 }
 
 .maler.maler--center h3.maler__title {
+  margin-bottom: 0;
+}
+
+.maler.maler--count {
+  padding: 30px 20px;
+}
+
+.maler.maler--count .maler__number {
+  color: #64bb21;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.maler.maler--count h3.maler__title {
+  margin-bottom: 0;
+}
+
+.maler.maler--count .maler__desc {
   margin-bottom: 0;
 }
 

@@ -14,7 +14,6 @@
     line-height: 1.5;
     margin-top: 0px;
     margin-bottom: 0px;
-    text-transform: uppercase;
   }
 
   p.sectitle__sub,
@@ -46,7 +45,7 @@
     width: 55px;
     height: 2px;
     background-image: radial-gradient(circle at 0 0, #fa9348, #f76b1c);
-    margin-top: 10px;
+    margin-top: 15px;
   }
 }
 
@@ -89,6 +88,24 @@
 
   h3.maler__title {
     margin-bottom : 0;
+  }
+}
+
+.maler.maler--count {
+  padding: 30px 20px;
+
+  .maler__number {
+    color: $counter-color;
+    font-size: 36px;
+    margin-bottom: 5px;
+  }
+
+  h3.maler__title {
+    margin-bottom: 0;
+  }
+
+  .maler__desc {
+    margin-bottom:  0;
   }
 }
 
