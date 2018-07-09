@@ -54,12 +54,14 @@ $green: #7db633;
 $red : #e91d1d;
 $blue: #285bf1;
 $yellow: #ffc918;
+$light: #fff;
 
 $brand-primary:         $orange;
 $brand-success:         $green;
 $brand-info:            $blue;
 $brand-danger:          $red;
 $brand-warning:        	$yellow;
+$brand-light:           $light;
 
 $theme-colors: () ;
 $theme-colors: map-merge((
@@ -68,10 +70,12 @@ $theme-colors: map-merge((
   "info":       $brand-info,
   "warning":    $brand-warning,
   "danger":     $brand-danger,
+  "light" :     $brand-light,
 ), $theme-colors );
 
 //button
-
+$padding-small-horizontal: 13px;
+$padding-small-vertical: 13px;
 $padding-base-vertical:     13px ;
 $padding-base-horizontal:   30px ;
 $padding-large-vertical:    18px ;

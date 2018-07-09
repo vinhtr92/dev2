@@ -1,8 +1,8 @@
 @mixin button-size($padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
     padding: $padding-vertical $padding-horizontal !important;
-    font-size: $font-size;
+    font-size: $font-size-small !important;
     line-height: $line-height;
-    border-radius: $border-radius;
+    border-radius: $border-radius !important ;
   }
 
 
@@ -36,7 +36,7 @@
     &:hover,
     &:focus,
     &.focus {
-      color: $btn-default-color ;
+      color: color-yiq($white) ;
       text-decoration: none;
     }
   
@@ -66,33 +66,57 @@
   }
 
   @each $color, $value in $theme-colors {
-    .btn-gradient-#{ $color } {
-        //   background-image: radial-gradient(circle at 0 0, lighten($value,8%), $value);
-        background-image: radial-gradient(circle at 0 0,lighten($value, 10%),$value);
-        transition: all .3s;
+  .btn-#{ $color } {
+      //   background-image: radial-gradient(circle at 0 0, lighten($value,8%), $value);
+    // color: color-yiq($value) !important;
+    background-image: radial-gradient(circle at 0 0,lighten($value, 10%),$value) !important;
+    transition: all .3s;
 
+    &:hover,
+    &:focus,
+    &.focus {
+      color: color-yiq($value) !important;
 
-        &:hover,
-        &:active {
-        background-image: radial-gradient(circle at 0 0,lighten($value, 15%),$value),
-        linear-gradient(rgba($btn-default-color, 0.15), rgba($btn-default-color, 0.15));
-        box-shadow: 0 0 0 2px rgba($value, 0.5);
-
-
-        transition: all .3s;
-
-        }
-
-        &:focus {
-         box-shadow: 0 0 0 3px rgba($value, 0.5) !important;
-
-        }
+      background-image: radial-gradient(circle at 0 0,lighten($value, 15%),$value),
+      linear-gradient(rgba($btn-default-color, 0.15), rgba($btn-default-color, 0.15));
+      box-shadow: 0 0 0 2px rgba($value, 0.5);
     }
+
+    &:focus {
+      box-shadow: 0 0 0 3px rgba($value, 0.5) !important;
+    }
+  }
+
+  .btn.btn-outline-#{$color} {
+    border: 1px solid $value !important;
+    background: none;
+
+    &:hover,
+    &:focus,
+    &.focus {
+      background: $value;
+      color: color-yiq($value) !important;
+    }
+  }
+
+  .btn.btn-plain-#{$color} {
+    color: $gray-900 !important;
+    background: none !important;
+
+    &:hover,
+    &:focus,
+    &.focus {
+      color: $value !important;
+    }
+  }
 }
+
+
+
 
 .btn-lg {
     // line-height: ensure even-numbered height of button next to large input
-    @include button-size($padding-large-vertical, $padding-large-horizontal, $font-size-small, $line-height-large, $btn-border-radius-base);
+    @include button-size($padding-large-vertical, $padding-large-horizontal, $font-size-small, $line-height-large, $btn-border-radius-small);
   }
   .btn-sm {
     // line-height: ensure proper height of button next to small input

@@ -11,13 +11,21 @@
 @import "../assets/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 @import "mixins/mixins";
 
-
+@import "custom/functions";
 @import "bootstrap/variables";
 @import "custom/customvariables";
 @import "custom/custom";
 @import "custom/button";
 
-// Module and Layout
+@import "custom/maler";
+
+
+
+
+
+// Module and Layout;
+
+
 @import "ui/form";
 @import "ui/module-style";
 @import "ui/pagination";
