@@ -79,6 +79,7 @@ fieldset[disabled] .btn {
 .btn.btn-outline-primary {
   border: 1px solid #f76b1c !important;
   background: none;
+  color: #fff !important;
 }
 
 .btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.btn-outline-primary.focus {
@@ -89,6 +90,7 @@ fieldset[disabled] .btn {
 .btn.btn-plain-primary {
   color: #212529 !important;
   background: none !important;
+  /* khong co padding left and right */
 }
 
 .btn.btn-plain-primary:hover, .btn.btn-plain-primary:focus, .btn.btn-plain-primary.focus {
@@ -117,6 +119,7 @@ fieldset[disabled] .btn {
 .btn.btn-outline-success {
   border: 1px solid #7db633 !important;
   background: none;
+  color: #212529 !important;
 }
 
 .btn.btn-outline-success:hover, .btn.btn-outline-success:focus, .btn.btn-outline-success.focus {
@@ -127,6 +130,7 @@ fieldset[disabled] .btn {
 .btn.btn-plain-success {
   color: #212529 !important;
   background: none !important;
+  /* khong co padding left and right */
 }
 
 .btn.btn-plain-success:hover, .btn.btn-plain-success:focus, .btn.btn-plain-success.focus {
@@ -155,6 +159,7 @@ fieldset[disabled] .btn {
 .btn.btn-outline-info {
   border: 1px solid #285bf1 !important;
   background: none;
+  color: #fff !important;
 }
 
 .btn.btn-outline-info:hover, .btn.btn-outline-info:focus, .btn.btn-outline-info.focus {
@@ -165,6 +170,7 @@ fieldset[disabled] .btn {
 .btn.btn-plain-info {
   color: #212529 !important;
   background: none !important;
+  /* khong co padding left and right */
 }
 
 .btn.btn-plain-info:hover, .btn.btn-plain-info:focus, .btn.btn-plain-info.focus {
@@ -193,6 +199,7 @@ fieldset[disabled] .btn {
 .btn.btn-outline-warning {
   border: 1px solid #ffc918 !important;
   background: none;
+  color: #212529 !important;
 }
 
 .btn.btn-outline-warning:hover, .btn.btn-outline-warning:focus, .btn.btn-outline-warning.focus {
@@ -203,6 +210,7 @@ fieldset[disabled] .btn {
 .btn.btn-plain-warning {
   color: #212529 !important;
   background: none !important;
+  /* khong co padding left and right */
 }
 
 .btn.btn-plain-warning:hover, .btn.btn-plain-warning:focus, .btn.btn-plain-warning.focus {
@@ -231,6 +239,7 @@ fieldset[disabled] .btn {
 .btn.btn-outline-danger {
   border: 1px solid #e91d1d !important;
   background: none;
+  color: #fff !important;
 }
 
 .btn.btn-outline-danger:hover, .btn.btn-outline-danger:focus, .btn.btn-outline-danger.focus {
@@ -241,6 +250,7 @@ fieldset[disabled] .btn {
 .btn.btn-plain-danger {
   color: #212529 !important;
   background: none !important;
+  /* khong co padding left and right */
 }
 
 .btn.btn-plain-danger:hover, .btn.btn-plain-danger:focus, .btn.btn-plain-danger.focus {
@@ -269,6 +279,7 @@ fieldset[disabled] .btn {
 .btn.btn-outline-light {
   border: 1px solid #fff !important;
   background: none;
+  color: #212529 !important;
 }
 
 .btn.btn-outline-light:hover, .btn.btn-outline-light:focus, .btn.btn-outline-light.focus {
@@ -279,6 +290,7 @@ fieldset[disabled] .btn {
 .btn.btn-plain-light {
   color: #212529 !important;
   background: none !important;
+  /* khong co padding left and right */
 }
 
 .btn.btn-plain-light:hover, .btn.btn-plain-light:focus, .btn.btn-plain-light.focus {
@@ -323,6 +335,7 @@ fieldset[disabled] .btn {
   line-height: 1.5;
   margin-top: 0px;
   margin-bottom: 0px;
+  text-transform: uppercase;
 }
 
 .sectitle p.sectitle__sub,
@@ -382,6 +395,24 @@ fieldset[disabled] .btn {
 
 .maler--center {
   text-align: center;
+}
+
+.maler.maler--center {
+  padding: 33px 37px;
+}
+
+.maler.maler--center .maler__image {
+  margin-bottom: 30px;
+}
+
+.maler.maler--center h3.maler__title {
+  margin-bottom: 0;
+}
+
+.maler-card {
+  background: #fff;
+  -webkit-box-shadow: 0 2px 2px 0 #dbe1e7;
+          box-shadow: 0 2px 2px 0 #dbe1e7;
 }
 
 .section-promo {

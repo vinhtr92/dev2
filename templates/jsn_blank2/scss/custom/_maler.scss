@@ -14,6 +14,7 @@
     line-height: 1.5;
     margin-top: 0px;
     margin-bottom: 0px;
+    text-transform: uppercase;
   }
 
   p.sectitle__sub,
@@ -77,6 +78,23 @@
 
 .maler--center {
   text-align: center;
+}
+
+.maler.maler--center {
+  padding: 33px 37px;
+
+  .maler__image {
+    margin-bottom: 30px;
+  }
+
+  h3.maler__title {
+    margin-bottom : 0;
+  }
+}
+
+.maler-card {
+	background: $white;
+	box-shadow: 0 2px 2px 0 #dbe1e7;
 }
 
 .section-promo {

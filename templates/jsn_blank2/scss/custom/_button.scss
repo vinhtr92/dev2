@@ -90,6 +90,8 @@
   .btn.btn-outline-#{$color} {
     border: 1px solid $value !important;
     background: none;
+    color: color-yiq($value) !important;
+
 
     &:hover,
     &:focus,
@@ -102,6 +104,7 @@
   .btn.btn-plain-#{$color} {
     color: $gray-900 !important;
     background: none !important;
+    /* khong co padding left and right */
 
     &:hover,
     &:focus,
