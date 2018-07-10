@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "templates\\jsn_blank2"
+		},
+		{
+			"path": "modules"
 		}
 	],
 	"settings": {

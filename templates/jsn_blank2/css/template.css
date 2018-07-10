@@ -341,6 +341,7 @@ fieldset[disabled] .btn {
   line-height: 1.5;
   margin-top: 0px;
   margin-bottom: 0px;
+  font-weight: normal !important;
 }
 
 .sectitle p.sectitle__sub,
@@ -374,15 +375,15 @@ fieldset[disabled] .btn {
   margin-top: 15px;
 }
 
-.maler__desc {
-  color: #6c757d;
-}
-
 .maler h3.maler__title {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 18px;
   font-weight: bold;
+}
+
+p {
+  color: #5e6e76;
 }
 
 .maler-left {
@@ -432,6 +433,153 @@ fieldset[disabled] .btn {
   margin-bottom: 0;
 }
 
+.maler.maler--testimonial {
+  text-align: center;
+  padding: 0 30px 30px 30px;
+}
+
+.maler.maler--testimonial .maler__image picture {
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+.maler.maler--testimonial p.maler__desc {
+  margin-bottom: 0;
+  color: #5e6b76;
+}
+
+.maler.maler--testimonial .maler__star i {
+  color: #faab7f;
+  padding: 0 1px;
+}
+
+.maler.maler--testimonial .maler__star i.active {
+  color: #f76b1c;
+}
+
+.maler.maler--testimonial h3.maler__title {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.maler.maler--testimonial p.maler__sub {
+  margin-bottom: 4px;
+}
+
+.maler.maler--testimonial .maler__icon {
+  margin: 25px 0 20px 0;
+}
+
+.maler.maler--feature {
+  padding: 20px 30px;
+}
+
+.maler.maler--feature .maler__image {
+  margin: 40px 0 60px 0;
+}
+
+.maler.maler--feature a.btn {
+  text-transform: lowercase !important;
+  color: #f76b1c !important;
+}
+
+.maler.maler--feature a.btn:hover, .maler.maler--feature a.btn:focus {
+  color: #fff;
+}
+
+.maler.maler--feature .maler__desc {
+  margin-bottom: 30px;
+}
+
+.maler.maler--feature .maler__link {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.maler.maler--isotope {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.maler.maler--isotope .maler__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 10px 10px 10px;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: .3s transform;
+  transition: .3s transform;
+  z-index: 2;
+}
+
+.maler.maler--isotope:hover .maler__content {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: .3s transform;
+  transition: .3s transform;
+  z-index: 2;
+}
+
+.isotope-grid .maler {
+  margin-bottom: 30px;
+}
+
+.isotope-grid a[data-action="tab"] {
+  padding: 0;
+  margin-right: 30px;
+  color: #243341;
+  font-weight: normal !important;
+}
+
+.isotope-grid a[data-active="true"] {
+  color: #f76b1c;
+  font-weight: bold !important;
+  padding: 0 10px;
+}
+
+.maler.maler--journal a[data-name="Featured Image"] {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.maler.maler--journal a[data-name="Title"] {
+  color: #243341;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.maler.maler--journal a[data-name="Title"]:hover {
+  color: #f76b1c;
+}
+
+.maler.maler--journal span[data-name="Author"] {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 15px !important;
+}
+
+.maler.maler--journal span[data-name="Author"]:before {
+  content: "by ";
+}
+
+.maler.maler--journal p[data-name="Intro text"] {
+  margin-bottom: 20px;
+}
+
+.maler.maler--journal a[data-name="Readmore"] {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.maler.maler--journal .maler__content {
+  padding: 0 20px 20px 20px;
+}
+
 .maler-card {
   background: #fff;
   -webkit-box-shadow: 0 2px 2px 0 #dbe1e7;
@@ -440,6 +588,62 @@ fieldset[disabled] .btn {
 
 .section-promo {
   background-color: #585858;
+}
+
+.maler-footer {
+  background-color: #253240;
+}
+
+.maler-footer h4 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.maler-footer ul.nav.menu a {
+  color: #848e99;
+  font-size: 13px;
+  padding: 5px 0;
+  line-height: 1.7;
+}
+
+.maler-footer ul.nav.menu li {
+  padding: 0;
+}
+
+.maler-footer p {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.maler-form form {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+
+.maler-form form:hover {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+          box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+
+.maler-form input {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  height: auto;
+}
+
+.maler-form button {
+  border-radius: 3px !important;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #f97616 0%, #d85308 100%);
 }
 
 label {

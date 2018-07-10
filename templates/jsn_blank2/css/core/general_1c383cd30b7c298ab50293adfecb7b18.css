@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  color: #394a5c;
+  color: #5e6b76;
   font-family: Roboto;
   font-weight: normal;
   font-size: 14px;
@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: Roboto;
   font-weight: 700;
   line-height: 1.5;
-  color: #394a5c;
+  color: #243341;
   letter-spacing: 0px;
 }
 h1, .h1 {
