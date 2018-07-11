@@ -55,6 +55,7 @@ $red : #e91d1d;
 $blue: #285bf1;
 $yellow: #ffc918;
 $light: #fff;
+$dark: #243341;
 
 $brand-primary:         $orange;
 $brand-success:         $green;
@@ -62,6 +63,7 @@ $brand-info:            $blue;
 $brand-danger:          $red;
 $brand-warning:        	$yellow;
 $brand-light:           $light;
+$brand-dark :           $dark;
 
 $theme-colors: () ;
 $theme-colors: map-merge((
@@ -86,5 +88,8 @@ $btn-text-transform: uppercase;
 $padding-plain-vertical : 0;
 $padding-plain-horizontal :0;
 $counter-color : #64bb21;
+
+$transition: 0.3s background;
+$title-color-dark: $brand-dark;
 
 

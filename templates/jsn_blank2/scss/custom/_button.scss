@@ -8,7 +8,6 @@
 
 .btn {
     color: $btn-default-color !important;
-    display: inline-block;
     margin-bottom: 0; // For input.btn
     font-weight: $btn-font-weight;
     text-align: center;
@@ -69,7 +68,9 @@
   .btn-#{ $color } {
       //   background-image: radial-gradient(circle at 0 0, lighten($value,8%), $value);
     // color: color-yiq($value) !important;
-    background-image: radial-gradient(circle at 0 0,lighten($value, 10%),$value) !important;
+    // color: #243341 !important ;
+
+    background-image: radial-gradient(circle at 0 0,lighten($value, 5%),$value) !important;
     transition: all .3s;
 
     &:hover,
@@ -77,26 +78,31 @@
     &.focus {
       color: color-yiq($value) !important;
 
-      background-image: radial-gradient(circle at 0 0,lighten($value, 15%),$value),
-      linear-gradient(rgba($btn-default-color, 0.15), rgba($btn-default-color, 0.15));
-      box-shadow: 0 0 0 2px rgba($value, 0.5);
+      background-image: radial-gradient(circle at 0 0,darken($value, 10%),darken($value,5%)) !important;
+
+      // linear-gradient(rgba($btn-default-color, 0.15), rgba($btn-default-color, 0.15));
+      // box-shadow: 0 0 0 2px rgba($value, 0.5);
     }
 
-    &:focus {
-      box-shadow: 0 0 0 3px rgba($value, 0.5) !important;
+    &:active,
+    &.active {
+      // box-shadow: 0 0 0 3px rgba($value, 0.5) !important;
+      // background-image: radial-gradient(circle at 0 0,darken($value, 15%),$value),
+      background-color: darken($brand-primary,20%) !important;
+
     }
   }
 
   .btn.btn-outline-#{$color} {
-    border: 1px solid $value !important;
+    border: 1px solid darken($value,10%) !important;
     background: none;
-    color: color-yiq($value) !important;
+    color: #243341 !important ;
 
 
     &:hover,
     &:focus,
     &.focus {
-      background: $value;
+      background: darken($value,10%);
       color: color-yiq($value) !important;
     }
   }
@@ -115,6 +121,13 @@
   }
 }
 
+.btn-default {
+  color: #243341 !important;
+
+  &:hover {
+    color: $white !important;
+  }
+}
 
 
 

@@ -62,12 +62,12 @@
   font-size: 10px;
 }
 #sunfw_section_footer {
+  background-color: #253240;
   border-top-width: 1px;
   border-top-style: solid;
   border-top-color: #e7eaee;
 }
 #sunfw_section_promo-over {
-  background-color: #394a5c;
   color: #394a5c;
   font-size: 14px;
 }
@@ -94,13 +94,17 @@
   font-size: 10px;
 }
 #sunfw_section_content-top-below {
-  background-color: #f8fafc;
+  background-color: #f9f9f9;
 }
 #sunfw_section_content-bottom {
-  background-color: #f8fafc;
+  background-color: #f9f9f9;
 }
 #sunfw_section_bottom {
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #e7eaee;
+  background-color: #f9f9f9;
+}
+#sunfw_section_promo {
+  background-image: url("https://picsum.photos/g/2001/2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
