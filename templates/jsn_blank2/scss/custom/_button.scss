@@ -143,3 +143,6 @@
     @include button-size($padding-xs-vertical, $padding-xs-horizontal, $font-size-small, $line-height-small, $btn-border-radius-small);
   }
 
+.btn-top-download {
+  @include button-size($btn-top-x-padding, $btn-top-y-padding, $font-size-small, $line-height-large, $btn-border-radius-small);
+}

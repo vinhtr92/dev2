@@ -1,15 +1,6 @@
 #sunfw_section_component {
   background-color: custom;
 }
-#sunfw_section_header {
-  background-color: custom;
-  border-top-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #e7eaee;
-  border-left-width: 0px;
-}
 #sunfw_section_breadcrumb {
   color: #fff;
   font-size: 14px;
