@@ -39,7 +39,7 @@ nav.navbar.sunfw-menu-head {
             >a {
                 &:not(.get-it) {
                     padding: 26px 25px;
-                    font-weight: bold;
+                    font-weight: normal;
                     display: block;
                 }
                 @media (min-width: $screen-sm-min) {
@@ -67,7 +67,7 @@ nav.navbar.sunfw-menu-head {
             a,
             span.nav-header {
                 line-height: 21px;
-                color: #394a5c;
+                color: $light;
                 span.image-title {
                     margin: 0px 5px;
                 }
@@ -87,14 +87,14 @@ nav.navbar.sunfw-menu-head {
                     box-shadow: none;
                 }
                 >a:hover {
-                    background-color: #F8F8F8;
+                    background-color: transparent;
                 }
             }
             >span.nav-header:hover,
             >span.nav-header:focus,
             >a:hover,
             >a:focus {
-                background-color: #F8F8F8;
+                background-color: transparent;
             }
         }
         ul.dropdown-menu {
@@ -179,7 +179,7 @@ nav.navbar.sunfw-menu-head {
         >li {
             >span.nav-header:not(.get-it),
             >a:not(.get-it) {
-                border-bottom: 1px solid #E7EAEE;
+                border-bottom: 1px solid rgba($light,0.1);
                 padding: 16px 25px !important;
                 position: relative;
             }

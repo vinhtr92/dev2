@@ -57,8 +57,12 @@
     // [converter] extracted a& to a.btn
 
     &.btn-top-download {
-        background-color: rgba($btn-default-color, 0.1);
-        border: solid 1px rgba($btn-default-color, 0.2);
+        color: rgba($light,0.5) !important;
+        background-color: rgba($light, 0.1);
+        border: solid 1px rgba($light, 0.2)!important;
+        &:hover {
+          color: $light !important;
+        }
     }
 
 
@@ -70,7 +74,7 @@
     // color: color-yiq($value) !important;
     // color: #243341 !important ;
 
-    background-image: radial-gradient(circle at 0 0,lighten($value, 5%),$value) !important;
+    background-image: radial-gradient(circle at 0 0,lighten($value, 8%),$value) !important;
     transition: all .3s;
 
     &:hover,
