@@ -427,7 +427,8 @@ p {
 }
 
 .section-promo {
-  // background-color: rgb(88, 88, 88);
+//   background-color: rgb(88, 88, 88);
+  position: relative !important;
 }
 
 .maler-footer {
@@ -587,13 +588,13 @@ button {
 
 
 .maler-promo {
-
+//   display: none !important;
+  position: relative;
   @media (min-width: 768px) { 
     position: relative;
     margin-top: -190px;
     z-index: 0;
    }
-
 
   &:before {
     position: absolute;
@@ -607,7 +608,7 @@ button {
 }
 
 .sunfw-sticky.maler-header {
-  background-color: transparent;
+  background-color: $dark;
 
   &.sunfw-sticky-open {
     background-color: $dark;
@@ -615,11 +616,11 @@ button {
 }
 
 @media screen and (min-width: 768px){
-  .sunfw-sticky.maler-header {
+  .sunfw-homepage #sunfw_section_header.sunfw-sticky.maler-header {
 //     background-color: lighten($dark, 10%);
 
   &:not(.sunfw-sticky-open){
-    background-color: transparent;
+    background-color: transparent !important ;
     position: relative;
     z-index: 99;
     transition: background-color 0.5s ease-in-out;
@@ -645,5 +646,13 @@ button {
     }
   }
 
+}
+
+.sunfw-sticky-placeholder {
+  display: none;
+}
+
+#sunfw-master:not(.sunfw-homepage) .maler-top-menu  {
+  display: none !important;
 }
 

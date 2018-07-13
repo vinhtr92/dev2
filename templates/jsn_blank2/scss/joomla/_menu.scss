@@ -84,10 +84,12 @@ nav.navbar.sunfw-menu-head {
                 >a,
                 >a:focus {
                     background-color: transparent;
+//                        background-color: aqua;
                     box-shadow: none;
                 }
                 >a:hover {
                     background-color: transparent;
+//                         background-color: aqua;
                 }
             }
             >span.nav-header:hover,
@@ -144,26 +146,26 @@ nav.navbar.sunfw-menu-head {
 
 @media (max-width: $screen-xs-max) {
     .col-menu {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
     .sunfw-menu-head .navbar-header {
         background: #4E6176;
         button.navbar-toggle {
-            background: #394A5C;
-            margin: 0;
-            padding: 25px;
+            background: #394A5C !important;
+            margin: 0 !important;
+            padding: 25px !important;
             @include rtl-float-left;
             outline: none;
             i {
-                width: 15px;
-                height: 15px;
+                width: 15px !important;
+                height: 15px !important;
                 display: block;
                 color: #fff;
             }
             &:hover,
             &:focus {
-                background: #717F8E;
+                background: #717F8E !important;
             }
         }
     }

@@ -1,6 +1,9 @@
 #sunfw_section_component {
   background-color: custom;
 }
+#sunfw_section_header {
+  background-color: #243341;
+}
 #sunfw_section_breadcrumb {
   color: #fff;
   font-size: 14px;
@@ -94,7 +97,7 @@
   background-color: #f9f9f9;
 }
 #sunfw_section_promo {
-  background-image: url("https://picsum.photos/g/2001/2000");
+  background-image: url("https://picsum.photos/g/1200/1200");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

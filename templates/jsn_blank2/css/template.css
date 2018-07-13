@@ -654,6 +654,10 @@ p {
           box-shadow: 0 2px 2px 0 #dbe1e7;
 }
 
+.section-promo {
+  position: relative !important;
+}
+
 .maler-footer h4 {
   color: #fff;
   font-size: 14px;
@@ -785,6 +789,9 @@ button:active {
   z-index: 1;
 }
 
+.maler-promo {
+  position: relative;
+}
 @media (min-width: 768px) {
   .maler-promo {
     position: relative;
@@ -799,26 +806,26 @@ button:active {
   bottom: 0;
   left: 0;
   content: ' ';
-  /* background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 40, 46, 0.8)), to(rgba(29, 40, 46, 0.8))), -webkit-gradient(linear, left top, left bottom, from(rgba(4, 3, 8, 0.73)), to(rgba(0, 0, 0, 0))); */
-  /* background-image: linear-gradient(rgba(29, 40, 46, 0.8), rgba(29, 40, 46, 0.8)), linear-gradient(to bottom, rgba(4, 3, 8, 0.73), rgba(0, 0, 0, 0)); */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 40, 46, 0.8)), to(rgba(29, 40, 46, 0.8))), -webkit-gradient(linear, left top, left bottom, from(rgba(4, 3, 8, 0.73)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(rgba(29, 40, 46, 0.8), rgba(29, 40, 46, 0.8)), linear-gradient(to bottom, rgba(4, 3, 8, 0.73), rgba(0, 0, 0, 0));
 }
 
 .sunfw-sticky.maler-header {
-  background-color: transparent;
+  background-color: #243341;
 }
 .sunfw-sticky.maler-header.sunfw-sticky-open {
   background-color: #243341;
 }
 
 @media screen and (min-width: 768px) {
-  .sunfw-sticky.maler-header:not(.sunfw-sticky-open) {
-    background-color: transparent;
+  .sunfw-homepage #sunfw_section_header.sunfw-sticky.maler-header:not(.sunfw-sticky-open) {
+    background-color: transparent !important;
     position: relative;
     z-index: 99;
     -webkit-transition: background-color 0.5s ease-in-out;
     transition: background-color 0.5s ease-in-out;
   }
-  .sunfw-sticky.maler-header.sunfw-sticky-open {
+  .sunfw-homepage #sunfw_section_header.sunfw-sticky.maler-header.sunfw-sticky-open {
     background-color: #243341;
     position: fixed;
     top: 0;
@@ -835,6 +842,14 @@ button:active {
     background-color: #243341;
   }
 }
+.sunfw-sticky-placeholder {
+  display: none;
+}
+
+#sunfw-master:not(.sunfw-homepage) .maler-top-menu {
+  display: none !important;
+}
+
 label {
   font-weight: normal;
 }
@@ -3317,17 +3332,17 @@ nav.navbar.sunfw-menu-head ul.navbar-nav ul.dropdown-menu li:last-child {
 /* ===== MOBILE MENU ===== */
 @media (max-width: 767px) {
   .col-menu {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 
   .sunfw-menu-head .navbar-header {
     background: #4E6176;
   }
   .sunfw-menu-head .navbar-header button.navbar-toggle {
-    background: #394A5C;
-    margin: 0;
-    padding: 25px;
+    background: #394A5C !important;
+    margin: 0 !important;
+    padding: 25px !important;
     float: left;
     outline: none;
   }
@@ -3335,13 +3350,13 @@ nav.navbar.sunfw-menu-head ul.navbar-nav ul.dropdown-menu li:last-child {
     float: right;
   }
   .sunfw-menu-head .navbar-header button.navbar-toggle i {
-    width: 15px;
-    height: 15px;
+    width: 15px !important;
+    height: 15px !important;
     display: block;
     color: #fff;
   }
   .sunfw-menu-head .navbar-header button.navbar-toggle:hover, .sunfw-menu-head .navbar-header button.navbar-toggle:focus {
-    background: #717F8E;
+    background: #717F8E !important;
   }
 
   .sunfw-menu {
@@ -8897,5 +8912,4 @@ input.j2store-product-search-input:focus {
     margin: 0;
   }
 }
-
 /*# sourceMappingURL=template.css.map */
