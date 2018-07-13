@@ -608,10 +608,10 @@ button {
 }
 
 .sunfw-sticky.maler-header {
-  background-color: $dark;
+//   background-color: $dark;
 
   &.sunfw-sticky-open {
-    background-color: $dark;
+    background-color: $light ;
   }
 }
 
@@ -627,13 +627,22 @@ button {
   }
 
     &.sunfw-sticky-open {
-      background-color: $dark;
+      background-color: $light;
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
       right: 0;
       z-index: 999999;
+
+      li span.nav-header {
+        color: $dark;
+      }
+
+      ul.navbar-nav > li > a, #menu_item_menu ul.navbar-nav > li > span.nav-header {
+        font-weight: bold;
+        color: $dark;
+      } 
     }
   }
 

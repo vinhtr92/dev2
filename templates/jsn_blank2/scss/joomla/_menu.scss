@@ -20,7 +20,8 @@ nav.navbar.sunfw-menu-head {
                 border-radius: 3px 3px 0 0;
             }
             ul.dropdown-menu {
-                padding: 20px 0;
+                padding: 10px 0;
+                box-shadow: 0 2px 2px 0 #dbe1e7;
                 span.caret {
                     display: inline-block;
                     float: left;
@@ -107,7 +108,7 @@ nav.navbar.sunfw-menu-head {
                 padding: 0;
                 a,
                 span.nav-header {
-                    padding: 8px 30px 7px;
+                    padding: 8px 20px 7px;
                     display: block;
                     &:hover {
                         background: transparent;
@@ -319,7 +320,7 @@ nav.navbar.sunfw-menu-head {
             //@include rtl-right(10px);
             border: none;
             &:before {
-                content: "\f105";
+                content: "\f0da";
                 font-family: FontAwesome;
                 font-size: 14px;
                 line-height: 1;

@@ -810,11 +810,8 @@ button:active {
   background-image: linear-gradient(rgba(29, 40, 46, 0.8), rgba(29, 40, 46, 0.8)), linear-gradient(to bottom, rgba(4, 3, 8, 0.73), rgba(0, 0, 0, 0));
 }
 
-.sunfw-sticky.maler-header {
-  background-color: #243341;
-}
 .sunfw-sticky.maler-header.sunfw-sticky-open {
-  background-color: #243341;
+  background-color: #fff;
 }
 
 @media screen and (min-width: 768px) {
@@ -826,13 +823,20 @@ button:active {
     transition: background-color 0.5s ease-in-out;
   }
   .sunfw-homepage #sunfw_section_header.sunfw-sticky.maler-header.sunfw-sticky-open {
-    background-color: #243341;
+    background-color: #fff;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     right: 0;
     z-index: 999999;
+  }
+  .sunfw-homepage #sunfw_section_header.sunfw-sticky.maler-header.sunfw-sticky-open li span.nav-header {
+    color: #243341;
+  }
+  .sunfw-homepage #sunfw_section_header.sunfw-sticky.maler-header.sunfw-sticky-open ul.navbar-nav > li > a, .sunfw-homepage #sunfw_section_header.sunfw-sticky.maler-header.sunfw-sticky-open #menu_item_menu ul.navbar-nav > li > span.nav-header {
+    font-weight: bold;
+    color: #243341;
   }
 
   .maler-top-menu.sunfw-sticky {
@@ -3201,7 +3205,9 @@ nav.navbar.sunfw-menu-head ul.navbar-nav > li.parent:hover > a {
   border-radius: 3px 3px 0 0;
 }
 nav.navbar.sunfw-menu-head ul.navbar-nav > li ul.dropdown-menu {
-  padding: 20px 0;
+  padding: 10px 0;
+  -webkit-box-shadow: 0 2px 2px 0 #dbe1e7;
+          box-shadow: 0 2px 2px 0 #dbe1e7;
 }
 nav.navbar.sunfw-menu-head ul.navbar-nav > li ul.dropdown-menu span.caret {
   display: inline-block;
@@ -3296,7 +3302,7 @@ nav.navbar.sunfw-menu-head ul.navbar-nav ul.dropdown-menu li {
 }
 nav.navbar.sunfw-menu-head ul.navbar-nav ul.dropdown-menu li a,
 nav.navbar.sunfw-menu-head ul.navbar-nav ul.dropdown-menu li span.nav-header {
-  padding: 8px 30px 7px;
+  padding: 8px 20px 7px;
   display: block;
 }
 nav.navbar.sunfw-menu-head ul.navbar-nav ul.dropdown-menu li a:hover,
@@ -3501,7 +3507,7 @@ nav.navbar.sunfw-menu-head ul.navbar-nav ul.dropdown-menu li:last-child {
   }
   ul.sunfw-tpl-menu ul li.parent span.nav-header span.caret:before,
   ul.sunfw-tpl-menu ul li.parent a span.caret:before {
-    content: "\f105";
+    content: "\f0da";
     font-family: FontAwesome;
     font-size: 14px;
     line-height: 1;
@@ -8912,4 +8918,5 @@ input.j2store-product-search-input:focus {
     margin: 0;
   }
 }
+
 /*# sourceMappingURL=template.css.map */
