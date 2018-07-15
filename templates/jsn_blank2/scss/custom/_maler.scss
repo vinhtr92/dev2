@@ -50,6 +50,7 @@
   }
 }
 
+
 .maler {
   h3.maler__title {
     margin-top: 0;
@@ -607,55 +608,52 @@ button {
   }
 }
 
-.sunfw-sticky.maler-header {
-//   background-color: $dark;
 
-  &.sunfw-sticky-open {
-    background-color: $light ;
-  }
-}
+@media screen and (min-width: 768px) {
 
-@media screen and (min-width: 768px){
-  .sunfw-homepage #sunfw_section_header.sunfw-sticky.maler-header {
-//     background-color: lighten($dark, 10%);
+  .sunfw-homepage #sunfw_section_header {
+    background: transparent  ;
 
-  &:not(.sunfw-sticky-open){
-    background-color: transparent !important ;
-    position: relative;
-    z-index: 99;
-    transition: background-color 0.5s ease-in-out;
-  }
+    #menu_item_menu ul.navbar-nav > li > a, 
+    #menu_item_menu ul.navbar-nav > li > span.nav-header {
+      font-weight: normal;
+    }
 
-    &.sunfw-sticky-open {
-      background-color: $light;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      right: 0;
-      z-index: 999999;
+    &.sunfw-sticky {
 
-      li span.nav-header {
-        color: $dark;
+      &.sunfw-sticky-open {
+        background: $sticky-active-bg !important;
+        // color: color-yiq($sticky-active-bg);
+        box-shadow: 0 2px 15px 0 rgba(219, 225, 231, 0.5);
+
+
+        #menu_item_menu ul.navbar-nav > li > a, 
+        #menu_item_menu ul.navbar-nav > li > span.nav-header {
+          color: color-yiq($sticky-active-bg) ;
+          font-weight: bold;
+
+        }
+
+        #menu_item_menu ul.navbar-nav > li {
+          &:hover > a, &.active > a, &:hover > span.nav-header, &.active > span.nav-header {
+            color: $brand-primary;
+    
+          }
+        }
       }
-
-      ul.navbar-nav > li > a, #menu_item_menu ul.navbar-nav > li > span.nav-header {
-        font-weight: bold;
-        color: $dark;
-      } 
+      
+      &:not(.sunfw-sticky-open) {
+        #menu_item_menu ul.navbar-nav > li > a, 
+        #menu_item_menu ul.navbar-nav > li > span.nav-header {
+          // color: $light ;
+          font-weight: normal;
+        }
+      }
     }
   }
-
-
-  .maler-top-menu.sunfw-sticky {
-    background-color: lighten($dark, 10%);
-
-    &.sunfw-sticky-open {
-      background-color: $dark;
-    }
-  }
-
 }
+
+
 
 .sunfw-sticky-placeholder {
   display: none;
