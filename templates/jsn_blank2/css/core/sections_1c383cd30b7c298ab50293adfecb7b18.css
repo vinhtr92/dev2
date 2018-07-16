@@ -1,6 +1,9 @@
 #sunfw_section_component {
   background-color: custom;
 }
+#sunfw_section_header {
+  background-color: #243341;
+}
 #sunfw_section_breadcrumb {
   color: #fff;
   font-size: 14px;

@@ -1,9 +1,14 @@
 #menu_item_menu ul.navbar-nav > li > a, #menu_item_menu ul.navbar-nav > li > span.nav-header {
+<<<<<<< HEAD
   font-size: 12px;
   color: #000;
   text-transform: none;
   font-family: 'Roboto';
   font-weight: 900;
+=======
+  font-size: 14px;
+  color: #fff;
+>>>>>>> parent of d681688... hoan thanh menu
 }
 #menu_item_menu ul.navbar-nav > li:hover > a, #menu_item_menu ul.navbar-nav > li.active > a, #menu_item_menu ul.navbar-nav > li:hover > span.nav-header, #menu_item_menu ul.navbar-nav > li.active > span.nav-header {
   color: #f76b1c;
@@ -12,17 +17,29 @@
   background-color: #fff;
 }
 #menu_item_menu ul.dropdown-menu li a, #menu_item_menu ul.sunfw-megamenu-sub-menu li a, #menu_item_menu .modulecontainer ul.nav-child li a, #menu_item_menu ul.dropdown-menu li span.nav-header, #menu_item_menu ul.sunfw-megamenu-sub-menu li span.nav-header, #menu_item_menu .modulecontainer ul.nav-child li span.nav-header {
-  font-size: 12px;
+  font-size: 14px;
   color: #000;
   text-transform: none;
 }
 #menu_item_menu ul.dropdown-menu li a:hover, #menu_item_menu ul.sunfw-megamenu-sub-menu li a:hover, #menu_item_menu .modulecontainer ul.nav-child li a:hover, #menu_item_menu ul.dropdown-menu li span.nav-header:hover, #menu_item_menu ul.sunfw-megamenu-sub-menu li span.nav-header:hover, #menu_item_menu .modulecontainer ul.nav-child li span.nav-header:hover, #menu_item_menu ul.dropdown-menu li a:focus, #menu_item_menu ul.sunfw-megamenu-sub-menu li a:focus, #menu_item_menu .modulecontainer ul.nav-child li a:focus, #menu_item_menu ul.dropdown-menu li span.nav-header:focus, #menu_item_menu ul.sunfw-megamenu-sub-menu li span.nav-header:focus, #menu_item_menu .modulecontainer ul.nav-child li span.nav-header:focus, #menu_item_menu ul.dropdown-menu li a.current, #menu_item_menu ul.sunfw-megamenu-sub-menu li a.current, #menu_item_menu .modulecontainer ul.nav-child li a.current, #menu_item_menu ul.dropdown-menu li span.nav-header.current, #menu_item_menu ul.sunfw-megamenu-sub-menu li span.nav-header.current, #menu_item_menu .modulecontainer ul.nav-child li span.nav-header.current {
+<<<<<<< HEAD
   color: #f76b1c;
 }
 #menu_item_menu ul.dropdown-menu li.active > a, #menu_item_menu ul.sunfw-megamenu-sub-menu li.active > a, #menu_item_menu .modulecontainer ul.nav-child li.active > a, #menu_item_menu ul.dropdown-menu li.active > span.nav-header, #menu_item_menu ul.sunfw-megamenu-sub-menu li.active > span.nav-header, #menu_item_menu .modulecontainer ul.nav-child li.active > span.nav-header {
   color: #f76b1c;
 }
 #menu_item_menu ul.sunfw-megamenu-sub-menu li.current > a, #menu_item_menu ul.sunfw-megamenu-sub-menu li.current > span.nav-header {
+=======
+  background-color: custom;
+  color: #f76b1c;
+}
+#menu_item_menu ul.dropdown-menu li.active > a, #menu_item_menu ul.sunfw-megamenu-sub-menu li.active > a, #menu_item_menu .modulecontainer ul.nav-child li.active > a, #menu_item_menu ul.dropdown-menu li.active > span.nav-header, #menu_item_menu ul.sunfw-megamenu-sub-menu li.active > span.nav-header, #menu_item_menu .modulecontainer ul.nav-child li.active > span.nav-header {
+  background-color: custom;
+  color: #f76b1c;
+}
+#menu_item_menu ul.sunfw-megamenu-sub-menu li.current > a, #menu_item_menu ul.sunfw-megamenu-sub-menu li.current > span.nav-header {
+  background-color: custom;
+>>>>>>> parent of d681688... hoan thanh menu
   color: #f76b1c;
 }
 #menu_item_menu ul.dropdown-menu, #menu_item_menu ul.sunfw-megamenu-sub-menu ul {
